@@ -167,8 +167,8 @@ function syncHudUi() {
 function applyPixelPerfectScale() {
   const hudBaseWidth = 80;
   const hudGap = 10;
-  const marginX = 20;
-  const marginY = 132;
+  const marginX = 12;
+  const marginY = 64;
   const layoutWidth = GAME_WIDTH + hudBaseWidth + hudGap;
   const availableW = Math.max(layoutWidth, window.innerWidth - marginX);
   const availableH = Math.max(GAME_HEIGHT, window.innerHeight - marginY);
